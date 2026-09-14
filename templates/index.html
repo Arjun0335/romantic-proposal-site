@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Will You Date Me? 💖</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+  <main class="card" id="card">
+    <h1>Hey, beautiful ✨</h1>
+    <h2 id="questionText">Would you like to go on a date with me? 💌</h2>
+    <div class="btn-row" id="btnRow">
+      <button id="yesBtn" class="btn yes">Yes 💖</button>
+      <button id="noBtn" class="btn no">No 🙈</button>
+    </div>
+    <div id="content"></div>
+  </main>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
